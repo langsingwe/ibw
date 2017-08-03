@@ -1,0 +1,36 @@
+@charset="utf-8";
+/*
+ibw.cn Reset Stylesheet
+v2.4
+Author: Carter
+Last Updated: 2014-10-26
+*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.red{color:red}.mb15{margin-bottom:15px}body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}
+a{color:#555;text-decoration:none; transition:color 0.2s linear 0s}
+a:hover{color:#d03222;}
+body{overflow: hidden;}
+.wrap{position: relative;width: 100%;margin: 0 auto;overflow: hidden;}
+
+/*header区域*/
+.header{position:fixed;top: 0;left: 0;width: 100%;height: 115px;overflow: hidden;background: #fff;z-index: 999;}
+.topArea{ width: 1003px;margin: 0 auto;height: 115px; }
+.logo{ float: left;display: block;width: 193px;height: 115px;line-height: 999; background: url(logo.png)no-repeat 0 center;overflow: hidden; z-index: 1; }
+.logo a{display: block;width: 193px;height: 115px;padding-top: 115px;}
+.nav{position: relative;float: right;height: 115px;overflow: hidden;}
+.nav a{color: #3e3e3e;font-size: 14px;width: 106px;height: 115px;display: block;}
+.nav a:hover{ background: #53aa47;color: #fff; }
+
+.nav-active a{ background: #53aa47;color: #fff; }
+.nav li{ float: left;width: 106px;height: 115px;text-align: center;line-height: 115px;margin-right: 20px; }
+
+
+#menu { position: fixed; right: 20px; top: 50%;margin-top: -100px; z-index: 10;}
+#menu li { width: 165px; height: 47px;margin-top: -15px;  overflow: hidden;}
+#menu a { display: inline-block;float: right; height: 47px; padding-right: 30px; line-height: 47px; background: url(o_ico_06.png) right 12px no-repeat; color: #fff;overflow: hidden;}
+#menu span { display:none; width: 101px; height: 47px;padding-left: 20px; line-height: 47px;color: #fff; font-size: 16px; overflow: hidden;background: url(menubg.png)no-repeat;}
+#menu .active a { background:url(o_ico_05.png)no-repeat right center;}
+#menu .active span{display: inline-block;}
+
+.godown {display: block;width: 52px;height: 52px;background: url(godown.png)no-repeat;opacity: 0.2; position: absolute;bottom: 1%;left: 50%;margin-left: -26px;}
+.godown:hover{opacity: 1;}
+

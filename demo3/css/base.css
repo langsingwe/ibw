@@ -1,0 +1,19 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px/1.5 Tahoma,arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+/* 项目主体部分设置 */
+body{background:#fff;color:#444;}
+a{color:#444;text-decoration:none;/*transition:color 0.2s linear 0s*/}
+a:hover{color:#1788ea;}
+
+.wrapper { position:relative; width:100%; margin:0 auto; overflow:hidden; background: url(wrapper.jpg) no-repeat;}
+.g-in { width:970px; margin:0 auto; }.g-in:after{content:'\20';display:block;height:0;clear:both}.g-in{*zoom:1}
+
+/*header部分*/
+.header{ width: 970px;position: relative; overflow: hidden; margin-top: 45px; }
+.header .logo{ overflow: hidden;  float: left; border: none;  }
+.header .nav{ width: 805px;height: 41px;float: right;position: relative;overflow: hidden;background: url(navbg.png) no-repeat; margin-top: 16px; border-radius: 10px;}
+.header .nav li{background: url(navline.jpg) no-repeat 0 center; float: left; text-align: center; padding: 6px 20px 0px; line-height: 13px;}
+.header .nav .current{ background: none; }
+.header .nav li a{ color: #fff;display: block; width: 73px;height: 19px; line-height: 19px; }
+.header .nav li a:hover{ color: #207449;  background: url(navhover_bg.png) no-repeat;}
+.header .nav li span{ display: block;transform: scale(0.8);  color: #61aa84; font-family: Arial;}

@@ -1,0 +1,47 @@
+/*RESET CSS*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.red{color:red}.mb15{margin-bottom:15px}body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}
+a{color:#555;text-decoration:none; transition:color 0.2s linear 0s}
+
+.wrapper{position: relative;background: #000000;overflow: hidden;zoom:1;}
+.g-in{width: 1200px;margin: 0 auto;position: relative;}
+/*siteNav*/
+.siteNav{position: relative;width:100%;height: 60px;background: #fff;margin: 0 auto;overflow: hidden;}
+.siteNav .g-in{width: 1200px;margin: 0 auto;position: relative;}
+.siteNav .clearfix{float: right;height: 60px;width: 775px; overflow: hidden;margin-right: 50px;}
+.siteNav .clearfix li{float: left;width: 150px;height: 60px;line-height: 60px; text-align: center;border-right: 1px solid #dcdcdc;}
+.siteNav .clearfix li a{color: #9b9b9b;display: block;}
+.siteNav .clearfix li a:hover{color: #f00;}
+.siteNav li.tel{color: #999999;font-size: 14px;font-weight: bold;width: 160px; background: url(o_ico_01.jpg)no-repeat 4px center;border: none;}
+
+/*header*/
+.header{position: relative;width: 100%;height: 42px;background: url(headerbg.jpg)repeat-x;overflow: hidden;}
+.topArea{width: 1200px;height: 42px;position: relative;margin:0 auto;overflow: hidden;}
+.topArea .logo{float: left; width: 310px;height: 42px;background: url(logo.png)no-repeat left center;line-height: 999;}
+.topArea .nav{float: right;position: relative;overflow: hidden;height: 42px;}
+.topArea .nav li{float: left;padding: 0 25px;height: 42px;line-height: 42px}
+.topArea .nav li a{ color: #fff;font-size: 14px;display: block; }
+.topArea .nav li:hover{background: #000;}
+.topArea .nav .current{background: #000;}
+
+/*footer*/
+.footer{width: 100%;background: #222222;overflow: hidden;position: relative;}
+.footer .clearfix{width: 1200px;margin: 0 auto;overflow: hidden;position: relative;margin-top: 20px;margin-bottom: 50px;}
+.footer .clearfix .link{float: right;margin-right: -15px;}
+.footer .clearfix .link li{float: left;padding: 0 20px;border-right: 1px solid #fff;height: 15px;line-height: 15px;}
+.footer .clearfix .link li.link-4{border: none;}
+.footer .clearfix .link li a{color: #fff;font-size: 14px;}
+.footer .clearfix .link li a:hover{color: #fc0}
+.footer .g-network{position: relative;overflow: hidden;float: left;margin-top: 50px;}
+.footer .g-network .g-ex{float: left;margin-right: 30px;}
+.footer .g-network a{color: #fff;}
+.footer .g-network a:hover{color: #9b9b9b}
+.footer .g-network dd{color: #9b9b9b;font-size: 14px;margin-bottom: 15px;}
+.footer .g-network dt{margin: 5px 0;}
+.footer .g-network .ex-6 dd,.footer .g-network .ex-7 dd{text-indent: -99999px;}
+.footer .qrcode{float: right;margin-top: 90px;}
+
+/*返回顶部*/
+#back-to-top{ position: fixed; right: 1%;bottom: 1%;  width: 44px;height: 44px; text-align: center; display: none; cursor: pointer;}
+#back-to-top a:hover{ color: #fff; }
+/*预览菜单*/
+.m-menu{position: fixed;left: 1%;top: 10%;padding: 10px 20px;border: 1px solid #ddd;background: #fff;line-height: 28px;z-index: 9;}

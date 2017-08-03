@@ -1,0 +1,47 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px/1.5 Tahoma,arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+/* 项目主体部分设置 */
+body{background:#fff;color:#444;}
+a{color:#444;text-decoration:none;/*transition:color 0.2s linear 0s*/}
+a:hover{color:#1788ea;}
+.wrapper { position:relative; width:100%; margin:0 auto; overflow:hidden; background: url(wrapper.png) repeat-x; }
+.g-in { width:1002px; margin:0 auto; padding: 18px; background: #fff; }.g-in:after{content:'\20';display:block;height:0;clear:both}.g-in{*zoom:1}
+
+/*header部分*/
+.header { position: relative;width: 965px;margin: 0 auto;  overflow: hidden;}
+.header .col-gl{float: left;}
+.header .col-gr{ float: right; }
+
+.header .topLink{ position: relative;height: 14px; background: url(topLinkline.png) no-repeat;  transform: scale(0.9); }
+.header .topLink li{ float: left; padding:0 16px; line-height: 12px;}
+.header .topLink a{ color: #777777; font-family: "Microsoft Yahei"; }
+
+.header .tTel{ position: relative;margin:15px 20px; float: left; }
+
+.header form{ border: 1px solid #c4c4c4; border-radius: 20px; float: left; height: 25px; margin-top: 10px;}
+.header form .sKey,.header form .sInputBox,.header form .sBtn{ float: left;}
+.header .sKey a { display: block;  width: 25px;height: 22px;  background: url(o_ico_01.png)no-repeat center;}
+.header .sInputBox{ width: 110px; padding-left: 5px; background: url(formline.png) no-repeat 0 center; }
+.header .sInputBox input{ border:none; height: 22px;width: 110px;outline: none;overflow: hidden; }
+.header .sBtn input{ border: none; width: 25px;height: 23px; background: url(o_ico_02.png) no-repeat center; outline: none;}
+.header .sBtn input:hover{ cursor: pointer; }
+
+/*footer区域*/
+.footer{position: relative; width: 1000px;overflow: hidden; }
+.footer .link{ width: 970px;margin: 0 auto; border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; padding: 7px 15px; overflow: hidden;}
+
+.footer .link .hd{ float: left; padding-left: 75px;padding-right: 15px; background: url(qrcode.png) no-repeat 0 center;width: 50px;height: 40px; border-right: 1px solid #d3d3d3;  }
+.footer .link .hd i{ color: #666666; font-family: "Microsoft yahei"; }
+.footer .link .hd span{ display: block; transform: scale(0.8); color: #017fc8; font-family: Arial; }
+
+.footer .link .bd{ position: relative;float:left;padding-left: 10px;  height: 35px; overflow: hidden;margin-top: 4px;width: 810px; }
+.footer .link .bd li{ margin-left: 10px;width: 89px; float: left;  }
+.footer .link .bd .next{ position: absolute; background: url(o_ico_09.png) no-repeat; width: 15px;height: 22px; right: 0 ;top:5px;}
+.footer .copy{ float: right; padding-top: 10px;}
+.footer .copy img{ float: left; padding-top: 2px;}
+.footer .copy span{ transform: scale(0.8); color: #184ca3; font-family: Arial; display: block;float: right;}
+
+/*返回顶部*/
+#return-top{ position: fixed; right: 50px;bottom: 10%;  width: 44px;height: 44px; text-align: center; display: none; cursor: pointer; z-index: 999;}
+#return-top a:hover{ color: #fff; }
+

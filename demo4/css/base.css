@@ -1,0 +1,48 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px/1.5 Tahoma,arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+/* 项目主体部分设置 */
+body{background:#fff;color:#444;}
+a{color:#444;text-decoration:none;/*transition:color 0.2s linear 0s*/}
+a:hover{color:#1788ea;}
+.wrapper { position:relative; width:100%; margin:0 auto; overflow:hidden; background: url(bodybg.jpg) repeat; font-family: Simsun; font-size: 12px; color: #fff;}
+.g-in { width:1030px; margin:0 auto 38px;padding: 10px 0; background: #fff;}.g-in:after{content:'\20';display:block;height:0;clear:both}.g-in{*zoom:1}
+
+/*header部分*/
+.header{ position: relative;width: 1000px;overflow: hidden; margin: 0 auto;}
+
+.header .logo{ float: left; }
+
+.header .nav{ float: right; position: relative;overflow: hidden;}
+
+.header .siteNav{ height: 25px;line-height: 25px; float: right;}
+.header .topLink{ float: left; }
+.header .topLink li{ float: left; padding: 0 15px; background: url(topline.png) no-repeat 0 center;  }
+.header .topLink .current { padding-left: 25px;background: url(weibo.png) no-repeat 0 center; }
+.header .siteNav a{ color: #a4a4a4; }
+.header .siteNav a:hover{ color:#1788ea; }
+
+.header .sForm{ float: left; }
+.header .sForm input{ border:none; }
+.header .sForm .sInputBox{ float: left; }
+.header .sForm .sInputBox input{ background: #dbdbdb; }
+.header .sForm .sBtn{ float: right; margin-left: 5px; }
+.header .sForm .sBtn input{ background: #a8c1dd; color: #fff; font-family: Simsun; }
+.header .sForm .sBtn input:hover{ cursor: pointer; }
+
+.header .menuNav{ position: relative;width: 700px;height: 36px;background: url(navbg.png) no-repeat; margin-top: 40px;}
+.header .menuNav li{ float: left; padding:7px 15px;}
+.header .menuNav a{ color: #6c6c6c; font-family: Microsoft Yahei; font-weight:bold; }
+
+/*footer部分*/
+.footer{ position: relative;width: 1030px;height: 50px;line-height: 50px; overflow: hidden; font-family: Simsun;}
+.footer .f-l{float: left;}
+.footer .f-l .email{margin:0 10px 0 25px;  padding-left: 30px; background: url(email.png) no-repeat 0 center; float: left;}
+.footer .f-l .email a{ color: #a4a4a4; font-weight: bold; display: block; }
+.f-l .user, .f-l .pw, .f-l .btn{ float: left;color: #a4a4a4; font-family: Simsun; margin-right: 10px; }
+.f-l .btn input{ color: #a4a4a4; cursor: pointer;font-family: Simsun; }
+.f-l .btn input:hover{color:  #1788ea; }
+.f-l .user input, .f-l .pw input{ width: 100px; }
+
+.footer .f-r{ float: right;color: #a4a4a4; transform: scale(0.9); font-family: Arial;}
+.footer .f-r a{ color: #a4a4a4; }
+.footer .f-r a:hover{ color:  #1788ea;  }

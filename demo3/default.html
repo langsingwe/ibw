@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="renderer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-Control" content="no-appsite">
+	<title>麻黄鸡禽业</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/home.css">
+	<script src="js/jquery.1.7.2.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="g-in clearfix">
+		<div class="header">
+			<p class="logo">
+				<a href=""><img src="images/logo.png"></a>
+			</p>
+			<div class="nav">
+				<ul>
+					<li class="current"><a href="#">网站首页</a><span>Home</span></li>
+					<li><a href="#">关于企业</a><span>About us</span></li>
+					<li><a href="#">新闻资讯</a><span>News</span></li>
+					<li><a href="#">优质产品</a><span>Products</span></li>
+					<li><a href="#">服务与支持</a><span>Service</span></li>
+					<li><a href="#">人才招聘</a><span>Recruitment</span></li>
+					<li><a href="#">联系我们</a><span>Contact us</span></li>
+				</ul>
+			</div>		
+		</div>
+		<div class="banner">
+			<div class="hd">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li><a href="#"><img src="images/banner.jpg" width="960" height="370"></a></li>
+					<li><a href="#"><img src="images/banner.jpg" width="960" height="370"></a></li>
+					<li><a href="#"><img src="images/banner.jpg" width="960" height="370"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="m-news">
+				<div class="hd">
+					<h2><span>NEWS</span><i>最新动态</i></h2>
+				</div>
+				<div class="bd">
+					<div class="pic"><img src="images/p81x61.png" width="81" height="61"></div>
+					<p class="new-txt">公司召开中高层人员任命大会<span>2012年12月21日上午，皖西麻黄鸡禽业有限公司中高层管</span></p>
+					<ul class="new-list">
+						<li><a href="">2012年12月13日国投公司领导来我公司调</a></li>
+						<li><a href="">2012年12月4日副省长花建慧来我公司考...</a></li>
+						<li><a href="">国务院扶贫办大别山片区规划调研组莅临...</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="m-pro">
+				<div class="hd">
+					<h2>Products<span>产品展示</span></h2>
+				</div>
+				<div class="bd"><a href="javascrit:void(0)" class="prev"></a><a href="javascrit:void(0)" class="next"></a>
+					<ul class="clearfix">
+						<li><a href="#"><img src="images/pro-1.png" width="112" height="112"><span>产品展示1</span></a></li>
+						<li><a href="#"><img src="images/pro-2.png" width="112" height="112"><span>产品展示2</span></a></li>
+						<li><a href="#"><img src="images/pro-3.png" width="112" height="112"><span>产品展示3</span></a></li>
+						<li><a href="#"><img src="images/pro-1.png" width="112" height="112"><span>产品展示4</span></a></li>
+						<li><a href="#"><img src="images/pro-2.png" width="112" height="112"><span>产品展示5</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="m-index">
+				<p class="video">
+				<video width="170" height="127" controls="">
+					<source src="images/video.mp4" type="video/mp4">
+					您的浏览器不支持该video!
+				</video></p>
+				<ul class="contact">
+					<li><a href="#"><img src="images/link-1.png" width="89" height="27"></a></li>
+					<li><a href="#"><img src="images/link-2.png" width="89" height="27"></a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<div class="foot clearfix">
+				<p>Copyright &copy; 2013 All Right Reserved 版权所有 <a href="#">安徽皖西麻黄鸡禽业有限公司</a><span>地址：安徽省霍邱县长集镇(霍邱县农产品加工产业园) 电话：0564-6522566 <a href="#">皖ICP备05021255号</a><i>技术支持：<a href="#">安徽网新</a></i></span></p>
+			</div>
+		</div>
+</div>
+<script>
+//banner轮播
+	jQuery(".banner").slide({mainCell:".bd ul",autoPlay:true});
+//产品轮播
+	jQuery(".m-pro").slide({mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:3});
+
+</script>
+</body>
+</html>

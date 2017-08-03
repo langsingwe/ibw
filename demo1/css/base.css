@@ -1,0 +1,61 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px/1.5 Tahoma,arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+/* 项目主体部分设置 */
+body{background:#fff;color:#444;}
+a{color:#444;text-decoration:none;/*transition:color 0.2s linear 0s*/}
+a:hover{color:#1788ea;}
+.wrapper { position:relative; width:100%; margin:0 auto; overflow:hidden;  }
+.g-in { width:902px; margin:0 auto;}.g-in:after{content:'\20';display:block;height:0;clear:both}.g-in{*zoom:1}
+
+/*header部分*/
+.header{position: relative; width: 100% ;height: 125px; background: url(top_bg.jpg) no-repeat center;}
+
+/*语言栏部分*/
+.language{ position:relative; width: 170px;height: 25px; background: url(top_language_bg.jpg) no-repeat ; float: right; }
+.language li { line-height: 23px; text-align: center; }
+.language li a{ color: #666666;  font-family: SimSun;  display: block;}
+.language li a:hover{ color: #fff; }
+.language .topLink-1{float: left; padding-left: 28px; background: url(o_ico_01.jpg) no-repeat 18px  5px;}
+.language .topLink-2{ float: right;  margin-right: 25px;}
+
+/*Logo和导航部分*/
+.topArea { position: relative; height: 100px; width: 902px; }
+.topArea .logo{  float: left;width: 355px;height: 50px;  margin-top: 35px;}
+.topArea .nav{ position: relative; float: right; width: 494px; height: 26px;  margin-top: 20px;}
+.nav ul li{ float: left; text-align: center;width: 90px; height: 26px; line-height: 26px; }
+.nav ul li a{ display: block; color: #5d8310;  font-family: Arial; font-size: 14px;border-radius: 10px;}
+.nav ul li a:hover { color: #fff; background:url(top_navline_bg.jpg) no-repeat;  }
+.nav ul .navline{ height: 26px;width: 10px; float: left; background: url(top_navline.jpg) no-repeat; }
+.nav .subNav{position: absolute; background: url(subNav.jpg) no-repeat;width: 490px;height: 31px; left: 2px;top: 25px;padding:1px 10px;}
+.nav .subNav{ display: none; }
+.nav .subNav ul li{ float: left; height: 22px; line-height: 30px;width: 80px; height: 22px;}
+.nav .subNav ul li a{display: inline; font-size: 12px; font-family: Simsun; color: #fff; }
+.nav .subNav ul li a:hover{ color: #ff0; background: #90ba3a; }
+/*.nav ul li ul { display: none; }*/
+
+/*poster部分*/
+.poster { position: relative; width: 100%; height: 272px; margin-bottom: 8px;}
+.poster img{ left: 50%; margin-left: -45px; }
+
+/*底部部分*/
+.footerline{ background: url(footerline.jpg) no-repeat; width: 940px;height: 23px; position: absolute;right: 210px;bottom: 97px; z-index: 3;}
+
+.footer{ position: relative;width: 100%;height: 120px; background: #97bd47;  z-index: 1; margin-top: 15px;}
+
+.footer .footer-l{ float: left; }
+.footer .footer-l ul{ background: url(f_l_line.jpg) no-repeat left bottom; margin-left: 210px ;height: 48px; padding-top: 45px; }
+.footer .footer-l ul li{ float: left; }
+
+.footer .footer-r{ float: right;width: 540px;height: 40px; padding-left: 70px; margin-right: 250px;  margin-top: 50px; background: url(footer_logo.jpg) no-repeat 10px 2px; padding-top: 5px;}
+.footer-r .f-r-t{ width: 262px; height: 15px; }
+.footer-r .f-r-t li{ float: left;width: 60px;height: 15px;border-right: solid #fff 1px; text-align: center; line-height: 15px; font-family: NSimsun;}
+.footer-r .f-r-t  .last{ border:none; }
+.footer-r a{  color: #fff; }
+.footer-r a:hover{ color: #ff0; }
+
+.footer-r .f-r-copy{ font-family: Simsun; color: #fff;  margin-left: 5px;}
+.f-r-copy img{ margin-bottom: -2px; margin-left: 10px; }
+
+/*返回顶部*/
+#return-top{ position: fixed; right: 50px;bottom: 10%;  width: 44px;height: 44px; text-align: center; display: none; cursor: pointer; z-index: 999;}
+#return-top a:hover{ color: #fff; }

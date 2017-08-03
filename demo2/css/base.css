@@ -1,0 +1,28 @@
+/*初始化代码*/
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol{margin:0;padding:0；}em,i{font-style:normal}li{list-style:none}a,a:hover{text-decoration:none}img{border:0}table{border-collapse:collapse;border-spacing:0}label{cursor:default}body,button,input,select,textarea{font:12px/1.5 Tahoma,arial,'Hiragino Sans GB','microsoft yahei',\5b8b\4f53}textarea{resize:none}a,a:focus{outline:none}.clearfix:after{content:'\20';display:block;height:0;clear:both}.clearfix{*zoom:1}.clear{display:block;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}.fl{float:left;display:inline}.fr{float:right;display:inline}.fn{float:none}.tl{text-align:left}.tr{text-align:right}.tc{text-align:center}.hide{display:none}.show{display:block}.mt10{margin-top:10px}.noBg{background:none!important}.noBorder{border:0!important}.yahei{font-family:'microsoft yahei'}.red{color:red}
+* { margin: 0;padding: 0; }
+/* 项目主体部分设置 */
+body{background:#fff;color:#444;}
+a{color:#444;text-decoration:none;/*transition:color 0.2s linear 0s*/}
+a:hover{color:#1788ea;}
+
+.wrapper{position: relative; margin:0 auto;overflow: hidden; background: #5dac35;  padding-bottom: 60px;}
+.g-in{ width: 975px;padding:12px; margin:45px auto 0; background: #fff;}
+.g-in:after{content:'\20';display:block;height:0;clear:both}.g-in{*zoom:1}
+
+/*顶部部分*/
+.siteNav{ position: relative;height: 20px; }
+.siteNav ul{ float: right; }
+.siteNav ul li{ float: left; background: url(siteNavLine.jpg) no-repeat right ;padding: 0 17px 0 10px; transform:scale(0.9);} 
+.siteNav ul  .last{padding:0 0 0 35px;  background: url(o_ico_01.jpg) no-repeat 10px center;  }
+.siteNav ul a{ color: #666666;}
+
+/*header部分*/
+.header{ position: relative;height: 70px; margin-bottom: 15px;}
+
+.logo{ float: left; }
+
+.nav{ float: right; margin-top: 15px; }
+.nav ul li{ float: left; margin-left: 30px; padding-top: 5px; padding-left: 10px;  background: url(navline.jpg) no-repeat left 0;height: 50px;}
+

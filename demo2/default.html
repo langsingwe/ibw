@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-Control" content="no-appsite">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="shortcut icon"  href="favicon.ico">
+	<script src="js/jquery.1.7.2.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<title>老乡鸡</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="g-in clearfix">
+		<div class="siteNav">
+			<ul>
+				<li><a href="#">招聘岗位</a></li>
+				<li><a href="#">店面活动</a></li>
+				<li><a href="#">VIP</a></li>
+				<li class="last"><a href="#">加关注</a></li>
+			</ul>
+		</div>
+		<div class="header">
+			<div class="logo">
+				<a href="#"><img src="images/logo.jpg" width="185" height="69"></a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#"><img src="images/nav-1.jpg"></a></li>
+					<li><a href="#"><img src="images/nav-2.jpg"></a></li>
+					<li><a href="#"><img src="images/nav-3.jpg"></a></li>
+					<li><a href="#"><img src="images/nav-4.jpg"></a></li>
+					<li><a href="#"><img src="images/nav-5.jpg"></a></li>
+					<li><a href="#"><img src="images/nav-6.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="m-food">
+				<div class="banner">
+					<div class="bd">
+						<ul>
+							<li><a href="#"><img src="images/banner.jpg" width="719" height="312"></a></li>
+							<li><a href="#"><img src="images/banner.jpg" width="719" height="312"></a></li>
+						</ul>
+					</div>
+					<a  class="prev" href="javascript:void(0)"></a><a href="javascript:void(0)" class="next"></a>
+				</div>
+				<div class="siteBar">
+					<ul>
+						<li><a href="#"><img src="images/sitebar-1.jpg" alt="" width="250" height="75"></a></li>
+						<li><a href="#"><img src="images/sitebar-2.jpg" alt="" width="250" height="75"></a></li>
+						<li><a href="#"><img src="images/sitebar-3.jpg" alt="" width="250" height="75"></a></li>
+						<li><a href="#"><img src="images/sitebar-4.jpg" alt="" width="250" height="75"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="m-es">
+				<div class="m-news">
+					<div class="hd">
+						<h3>品牌新闻</h3><span>BRAND NEWS</span>
+						<p class="more"><a href="#" title="更多"><img src="images/more.jpg"></a></p>
+					</div>
+					<div class="bd">
+						<ul>
+							<li><a href="#">天冷喝鸡汤能提高免疫力</a><span>2012-03-09</span></li>
+							<li><a href="#">肥西老母鸡健康食品</a><span>2012-03-09</span></li>
+							<li><a href="#">老母鸡是女人的上方滋补品</a><span>2012-03-09</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="m-act">
+					<div class="hd">
+						<h3>最新活动</h3><span>THE LATEST ACTIVITIES</span>
+						<a class="prev"></a><a class="next"></a>
+					</div>
+					<div class="bd">
+						<ul>
+							<div class="pic"><li><a href="#"><img src="images/act-1.jpg" alt=""></a></li></div>
+							<div class="pic"><li><a href="#"><img src="images/act-2.jpg" alt=""></a></li></div>
+							<div class="pic"><li><a href="#"><img src="images/act-1.jpg" alt=""></a></li></div>
+							<div class="pic"><li><a href="#"><img src="images/act-2.jpg" alt=""></a></li></div>
+						</ul>
+					</div>
+				</div>
+				<div class="tour">
+					<div class="hd">
+						<h3>旅游路线</h3><span>TOURIST ROUTES</span>
+					</div>
+					<div class="bd">
+						<ul>
+							<li><a href="#">听松品茗赛过活神仙</a></li>
+							<li><a href="#">西风垂钓享受夏日好风..</a></li>
+							<li><a href="#">听松品茗赛过活神仙</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="qLink">
+			<ul>
+				<li class="tel"><i>订购热线</i><s>24小时为您提供服务</s><span>400-888-686</span></li>
+				<li class="join"><a href="#"><i>加入老乡鸡</i><s>JOIN US</s></a><span>欢迎加入安徽最大的连锁快餐老乡鸡</span><a href="#" class="go"></a></li>
+				<li class="map"><a href="#"><i>友情链接</i><s>STORES SEARCH</s><span>肥西老母鸡农牧科技有限公司</span></a></li>
+			</ul>
+		</div>
+	</div>
+		<div class="footer">
+			<div class="f-l">
+				<ul>
+					<li><a href="#">金牌菜品</a></li>
+					<li><a href="#">品牌加盟</a></li>
+					<li><a href="#">法律申明</a></li>
+					<li><a href="#">店面活动</a></li>
+					<li class="last"><a href="#">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="f-r">
+				<p>COPYRIGHT 2012 ALL RIGHTS RESERVED BY HOME ORIGINAL CHICKEN</p>
+			</div>
+		</div>
+</div>
+<script>
+//鼠标移到banner显示左右切换按钮
+	$(function(){
+		$('.banner .bd').mouseover(function(){
+			$('.banner .prev,.banner .next').fadeIn(0);
+		});
+		$('.banner .bd').mouseleave(function(){
+			$('.banner .prev,.banner .next').fadeOut(1000);
+		})
+	})
+//banner轮播
+	jQuery(".banner").slide({mainCell:".bd ul",autoPlay:true});
+
+//最新产品轮播
+jQuery(".m-act").slide({mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:2,trigger:"click"});
+
+</script>
+</body>
+</html>
