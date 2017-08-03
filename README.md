@@ -1,6 +1,6 @@
 ibw学习项目Demo
 ==========
-[凯来福家具主页](https://weiliangchun.github.io/ibw-study/demo8/default.html)<br>
+[凯来福家具主页](https://weiliangchun.github.io/ibw-study/demo8/default.html)|[公司简介](https://weiliangchun.github.io/ibw-study/demo8/about.html)|[客户案例](https://weiliangchun.github.io/ibw-study/demo8/case.html)|[图片新闻](https://weiliangchun.github.io/ibw-study/demo8/picnews.html)|[产品展示](https://weiliangchun.github.io/ibw-study/demo8/product.html)<br>
 [德博能源](https://weiliangchun.github.io/ibw-study/demo7/default.html)<br>
 [徽王蓝莓](https://weiliangchun.github.io/ibw-study/demo6/default.html)<br>
 [SONGHE](https://weiliangchun.github.io/ibw-study/demo5/default.html)<br>
