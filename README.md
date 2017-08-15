@@ -7,4 +7,4 @@ ibw学习项目Demo
 [日新高温](https://weiliangchun.github.io/ibw-study/demo4/default.html)<br>
 [麻黄鸡禽业](https://weiliangchun.github.io/ibw-study/demo3/default.html)<br>
 [老乡鸡](https://weiliangchun.github.io/ibw-study/demo2/default.html)<br>
-[贝克制药](https://weiliangchun.github.io/ibw-study/demo1/html/default.html)<br>
+[贝克制药](https://weiliangchun.github.io/ibw-study/demo1/default.html)<br>
